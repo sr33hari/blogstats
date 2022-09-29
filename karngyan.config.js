@@ -1,16 +1,16 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
+  name: 'Sree Hari Karri',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
   image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  email: 'sreehari98@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
   },
   plausibleAnalytics: {
-    enabled: true,
+    enabled: false,
     domain: 'template.karngyan.com',
     trackLocalhost: false,
     // leave it empty if plausible is not self hosted
@@ -19,18 +19,16 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: true
+    enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    github: 'sr33hari',
+    linkedin: 'sreeharik5',
+    instagram: 'highharii',
+    codestats: 'highhari' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: true,
+    enabled: false,
     url: 'https://www.buymeacoffee.com/karngyan'
   },
   projects: {
@@ -41,22 +39,22 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/HariResume.pdf' // add files in static folder
   },
   uses: {
     enabled: true,
     meta: [
-      {title: 'OS', value: 'macOS Catalina'},
-      {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
-      {title: 'Keyboard', value: 'Keychron K2 - Gateron Brown Keys'},
-      {title: 'Mouse', value: 'Logitech Silent Pebble'},
-      {title: 'Monitor', value: 'LG QHD (2560 x 1440) 27 Inch IPS Display'},
-      {title: 'Laptop • Processor • Graphics', value: 'MacBook Pro (16-inch, 2019) • 2.6 GHz 6-Core Intel Core i7 • AMD Radeon Pro 5300M 4 GB + Intel UHD Graphics 630 1536 MB'}
+      {title: 'OS', value: 'macOS Monterey'},
+      {title: 'Memory', value: '16 GB 6400 MHz LPDDR5'},
+      {title: 'Keyboard', value: 'Logitech K120'},
+      {title: 'Mouse', value: 'Logitech M590'},
+      {title: 'Monitor', value: 'AOC 2770Vh1 (1920 x 1080) 27 Inch LCD Display'},
+      {title: 'Laptop • Processor • Graphics', value: 'MacBook Pro (14-inch, 2022) • 2.0 GHz Apple M1 Pro GPU (16-core) • Apple M1 Pro GPU (16-core)'}
     ]
   },
   workedAt: {
     // add logos in static and at max add 3/4
-    enabled: true,
+    enabled: false,
     meta: [
       { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
       { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
@@ -65,14 +63,14 @@ export default {
     ]
   },
   recommendations: {
-    enabled: true,
+    enabled: false,
     meta: [
       { name: 'Varun Jain', designation: 'Founder, SendX & SendPost', image: '/images/varun.jpeg', linkedin: 'https://www.linkedin.com/in/varun-jain-582b0215/', content: 'Gyan interned with SendX and SendPost for around 6 months. He is a very strong full-stack engineer who can create pixel perfect frontend while being able to work on backend pieces sending millions of emails per day. He is a quick learner, a great team player and, has a very strong work ethic. You can rely on him that things will be done with utmost quality. He also has pretty good product instincts and can think from the user\'s perspective.' },
       { name: 'Gaurav Sen', designation: 'Founder, InterviewReady', image: '/images/gaurav.jpeg', linkedin: 'https://www.linkedin.com/in/gkcs/', content: 'Karn is an extraordinarily talented, diligent and foresighted individual. He is gifted at building products from paper to code, and has a knack of finding efficient solutions to complex problems. In my experience, I have rarely seen such a mixture of talent and passion put together. At InterviewReady, Karn exceeded our expectations. If you are considering working with him: congratulations, you are going to have a great time!' },
     ]
   },
   loadingIndicator: {
-    name: 'pulse'
+    name: 'wandering-cubes'
     // https://tobiasahlin.com/spinkit/
     // circle
     // cube-grid
@@ -103,11 +101,11 @@ export default {
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'i blog tech',
+        iBlogTech: 'i blog lifehacks',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        description: 'I am a software developer and an adrenaline junkie. I love building projects and working on new tech. I will be blogging more about my progress(hopefully).',
+        words: ['developer', 'designer', 'engineer', 'programmer', 'athlete'],
       },
       githubCalendar: {
         header: 'contributions',
