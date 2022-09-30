@@ -104,7 +104,7 @@ export default {
         iBlogTech: 'i blog lifehacks',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'I am a software developer and an adrenaline junkie. I love building projects and working on new tech. I will be blogging more about my progress(hopefully).',
+        description: 'I am a software developer and an adrenaline junkie. I love building projects and working on new tech. I will be blogging about everything I\'ve learnt that makes life better.',
         words: ['developer', 'designer', 'engineer', 'programmer', 'athlete'],
       },
       githubCalendar: {
@@ -113,19 +113,19 @@ export default {
       },
       blog: {
         header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        subtext: 'this is my first attempt at blogging, hope y\'all learn something interesting.'
       },
       recentBlog: {
         header: 'recent blogs',
-        subtext: 'it takes a lot of time to write man'
+        subtext: 'there\'s so much to learn everyday'
       },
       uses: {
         header: 'uses',
-        subtext: 'a quick summary of what I use on a daily basis to code and some codestats.net flex'
+        subtext: 'a quick summary of what I use on a daily basis to code and some codestats.net metrics'
       },
       projects: {
         header: 'projects',
-        subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read'
+        subtext: 'this page lists some of the projects i\'ve worked on'
       },
       recommendations: {
         header: 'recommendations',
