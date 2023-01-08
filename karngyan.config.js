@@ -104,7 +104,7 @@ export default {
         iBlogTech: 'i blog lifehacks',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'I am a software developer and an adrenaline junkie. I love building projects and working on new tech. I will be blogging about everything I\'ve learnt that makes life better.',
+        description: 'I am a software developer and an adrenaline junkie. I love building projects and working on new tech. I will be blogging soon about everything I\'ve learnt that makes life better.',
         words: ['developer', 'designer', 'engineer', 'programmer', 'athlete'],
       },
       githubCalendar: {

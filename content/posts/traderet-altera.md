@@ -11,8 +11,7 @@ tags:
   - ipsum
 category: interview
 author:
-  name: karn
-  twitter: gyankarn
+  name: hari
   image: /images/bigheadkarngyan.png
 ---
 
